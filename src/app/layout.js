@@ -1,5 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +14,42 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Paramotor</title>
+        <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/css/elegant-icons.min.css" />
+        <link rel="stylesheet" href="/css/all.min.css" />
+        <link rel="stylesheet" href="/css/animate.css" />
+        <link rel="stylesheet" href="/css/slick.css" />
+        <link rel="stylesheet" href="/css/slick-theme.css" />
+        <link rel="stylesheet" href="/css/nice-select.css" />
+        <link rel="stylesheet" href="/css/default.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/responsive.css" />
+      </head>
+      <body className={inter.className}>
+        <Header />
+        {children}
+        <Script src="/js/jquery-3.6.0.min.js" strategy="beforeInteractive" />
+        <Script src="/js/preloader.js" strategy="lazyOnload" />
+        <Script src="/js/bootstrap.bundle.min.js" strategy="lazyOnload" />
+        <Script src="/js/jquery.smoothscroll.min.js" strategy="lazyOnload" />
+        <Script src="/js/jquery.waypoints.min.js" strategy="lazyOnload" />
+        <Script src="/js/jquery.counterup.min.js" strategy="lazyOnload" />
+        <Script src="/js/jquery.nice-select.min.js" strategy="lazyOnload" />
+        <Script src="/js/slick.min.js" strategy="lazyOnload" />
+        <Script src="/js/parallax.js" strategy="lazyOnload" />
+        <Script src="/js/jquery.parallax-scroll.js" strategy="lazyOnload" />
+        <Script src="/js/wow.min.js" strategy="lazyOnload" />
+        <Script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js" />
+        <Script src="/js/custom.js" strategy="lazyOnload" />
+        <a id="back-to-top" title="Back to Top"></a>
+      </body>       <Footer/>
+
     </html>
   );
 }
