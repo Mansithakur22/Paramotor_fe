@@ -26,7 +26,7 @@ export default function Home() {
   <OurPlatform/>
   <Security/>
   <FAQ/>
-  {/* <CTA/> */}
+  <CTA/>
   </>
   );
 }

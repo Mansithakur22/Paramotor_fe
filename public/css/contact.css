@@ -55,7 +55,7 @@ font-size: 4rem;
 }
 }
 
-.background_banner {
+.background_banner_contact {
 background: url(../images/contact/contactbanner.jpg);
 padding: 16px 16px 16px 64px;
 border-radius: 20px;
@@ -63,11 +63,11 @@ background-size: cover;
 height: calc(100vh - 147px);
 max-height: 700px;
 }
-.background_banner {
+.background_banner_contact {
     position: relative;
 }
 
-.background_banner:after {
+.background_banner_contact:after {
     background: #000000bf;
     content: '';
     width: 100%;
