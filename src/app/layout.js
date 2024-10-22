@@ -97,6 +97,12 @@ export default function RootLayout({ children }) {
           media="all"
         />
         <link
+           rel="stylesheet"
+          type="text/css"
+          href="css/contact.css"
+          media="all"
+        />
+        <link
           rel="stylesheet"
           type="text/css"
           href="css/responsive.css"

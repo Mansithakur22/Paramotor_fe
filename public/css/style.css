@@ -3234,3 +3234,15 @@ margin: 0;
 .collapse {
   visibility: visible !important;
 }
+
+@media screen and (max-width:  991px)
+{
+	.footer.footer-3 .copyright .copyright-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.col-lg-4.text-right.text-lg-end {
+    text-align: center;
+    margin-bottom: 10px;
+}
+}
