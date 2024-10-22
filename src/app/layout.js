@@ -112,19 +112,19 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Header />
         {children}
-        <Script src="/js/jquery-3.6.0.min.js" strategy="beforeInteractive" />
-        <Script src="/js/preloader.js" strategy="lazyOnload" />
-        <Script src="/js/bootstrap.bundle.min.js" strategy="lazyOnload" />
-        <Script src="/js/jquery.smoothscroll.min.js" strategy="lazyOnload" />
-        <Script src="/js/jquery.waypoints.min.js" strategy="lazyOnload" />
-        <Script src="/js/jquery.counterup.min.js" strategy="lazyOnload" />
-        <Script src="/js/jquery.nice-select.min.js" strategy="lazyOnload" />
-        <Script src="/js/slick.min.js" strategy="lazyOnload" />
-        <Script src="/js/parallax.js" strategy="lazyOnload" />
-        <Script src="/js/jquery.parallax-scroll.js" strategy="lazyOnload" />
-        <Script src="/js/wow.min.js" strategy="lazyOnload" />
+        <Script src="/js/jquery-3.6.0.min.js" />
+        <Script src="/js/preloader.js"  />
+        <Script src="/js/bootstrap.bundle.min.js"  />
+        <Script src="/js/jquery.smoothscroll.min.js"  />
+        <Script src="/js/jquery.waypoints.min.js"  />
+        <Script src="/js/jquery.counterup.min.js"  />
+        <Script src="/js/jquery.nice-select.min.js"  />
+        <Script src="/js/slick.min.js"  />
+        <Script src="/js/parallax.js"  />
+        <Script src="/js/jquery.parallax-scroll.js"  strategy="afterInteractive" />
+        <Script src="/js/wow.min.js"  />
         <Script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js" />
-        <Script src="/js/custom.js" strategy="lazyOnload" />
+        <Script src="/js/custom.js"  />
         <a id="back-to-top" title="Back to Top"></a>
       </body>{" "}
       <Footer />

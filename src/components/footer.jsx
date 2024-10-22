@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <section className="cta-area pt-60">
+      {/* <section className="cta-area pt-60">
         <div className="container">
           <div className="row">
             <div className="col-md-12 position-relative">
@@ -47,7 +47,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <footer className="footer footer-3">
         <div className="footer-top pt-100 pb-0">
           <div className="container">

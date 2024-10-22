@@ -7,7 +7,7 @@ export default function ContactHeroSection() {
         style={{ backgroundSize: "auto", backgroundPosition: "top left" }}
       >
         <div className="container">
-          <div className="background_banner contactbackground_banner">
+          <div className="background_banner_contact contactbackground_banner">
             <div className="row align-items-center h-100">
               <div className="col-md-7 col-sm-9">
                 <div className="banner-content">
