@@ -3231,3 +3231,6 @@ max-width: 60%;
 text-align: left;
 margin: 0;
 }
+.collapse {
+  visibility: visible !important;
+}
