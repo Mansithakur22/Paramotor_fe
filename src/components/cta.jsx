@@ -37,7 +37,7 @@
             <div className="col-md-5 text-center text-md-end">
               <div className="cta-content text-md-end mt-3 mt-md-0">
                 <a
-                  href="#"
+                  href="/contactPage"
                   className="theme-btn theme-btn-alt wow fadeInLeft m-0"
                 >
                   Contact Us

@@ -84,7 +84,10 @@
       e.preventDefault();
       $("html, body").animate({ scrollTop: 0 }, "300");
     });
-
+//initialize niceselect
+    if ($(".niceclass").length) {
+      $(".niceclass").niceSelect();
+    }
     //initialize wow js
     new WOW({}).init();
 
