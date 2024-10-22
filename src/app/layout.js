@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <meta charSet="UTF-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,6 +30,78 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/css/default.css" />
         <link rel="stylesheet" href="/css/style.css" />
         <link rel="stylesheet" href="/css/responsive.css" />
+      </head> */}
+      <head>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Paramotor</title>
+        <link
+          rel="shortcut icon"
+          href="images/favicon.png"
+          type="image/x-icon"
+        />
+        {/* CSS here */}
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="css/bootstrap.min.css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="css/elegant-icons.min.css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="css/all.min.css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="css/animate.css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="css/slick.css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="css/slick-theme.css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="css/nice-select.css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="css/default.css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="css/style.css"
+          media="all"
+        />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="css/responsive.css"
+          media="all"
+        />
       </head>
       <body className={inter.className}>
         <Header />
@@ -48,8 +120,8 @@ export default function RootLayout({ children }) {
         <Script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js" />
         <Script src="/js/custom.js" strategy="lazyOnload" />
         <a id="back-to-top" title="Back to Top"></a>
-      </body>       <Footer/>
-
+      </body>{" "}
+      <Footer />
     </html>
   );
 }
